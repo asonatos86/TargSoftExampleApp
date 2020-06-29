@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TargSoftExampleApp</string>
+    <string name="title_all_cats">All</string>
+    <string name="title_favorites">Favorites</string>
+
+    <string name="api_key">473af0ea-5294-4b16-aa68-f7db83536ff9</string>
+    <string name="base_url">https://api.thecatapi.com/v1/</string>
+
+    <string name="loading_error">Loading error</string>
+
+    <string name="database_name">cat_database</string>
+</resources>

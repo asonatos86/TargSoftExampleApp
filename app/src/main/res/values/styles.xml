@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ImageView" parent="ImageView" tools:ignore="ResourceCycle">
+        <item name="android:layout_width">@dimen/cat_list_item_image_width</item>
+        <item name="android:layout_height">@dimen/cat_list_item_image_height</item>
+        <item name="android:layout_marginBottom">@dimen/cat_list_item_image_bottom_margin</item>
+        <item name="android:layout_marginLeft">@dimen/cat_list_item_image_left_margin</item>
+        <item name="android:layout_marginRight">@dimen/cat_list_item_image_right_margin</item>
+        <item name="android:layout_marginTop">@dimen/cat_list_item_image_top_margin</item>
+    </style>
+</resources>
